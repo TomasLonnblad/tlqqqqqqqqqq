@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/ok.glb')
+  const { nodes, materials } = useGLTF('/media6/ok.glb')
   return (
   
 
@@ -628,4 +628,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/ok.glb')
+useGLTF.preload('/media6/ok.glb')
