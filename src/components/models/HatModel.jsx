@@ -10,18 +10,9 @@ export function Model(props) {
   return (
   
 
-
-
-
-
-
   <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
+      <group rotation={[-Math.PI / 2, 10, 8]}>
      
-
-    
-
-        
         <mesh
           castShadow
           receiveShadow
