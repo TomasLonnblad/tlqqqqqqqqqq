@@ -18,7 +18,7 @@ export function Model(props) {
       scale={[-8, -5.5, -198]}
       rotation={[-2.4, -10, 8]}
       position={[-33, -919, -13]}
-    >
+    />
 
         
         <mesh
