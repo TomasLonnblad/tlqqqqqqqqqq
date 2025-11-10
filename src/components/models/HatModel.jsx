@@ -10,6 +10,15 @@ export function Model(props) {
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
+
+
+      ref={modelRef}
+      scale={[-8, -5.5, -198]}
+      rotation={[-2.4, -10, 8]}
+      position={[-33, -919, -13]}
+    >
+
+        
         <mesh
           castShadow
           receiveShadow
