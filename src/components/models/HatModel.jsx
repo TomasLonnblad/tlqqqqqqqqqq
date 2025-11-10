@@ -11,14 +11,15 @@ export function Model(props) {
   
 
 
-    <group
-      {...props}
-      dispose={null}
-      ref={modelRef}
-      scale={[-8, -5.5, -198]}
-      rotation={[-2.4, -10, 8]}
-      position={[-33, -919, -13]}
-    />
+
+
+
+
+  <group {...props} dispose={null}>
+      <group rotation={[-Math.PI / 2, 0, 0]}>
+         <group position={[-33, -919, -13]}>
+
+    
 
         
         <mesh
