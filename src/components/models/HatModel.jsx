@@ -12,10 +12,7 @@ export function Model(props) {
       <group rotation={[-Math.PI / 2, 0, 0]}>
 
 
-      scale={[-8, -5.5, -198]}
-      rotation={[-2.4, -10, 8]}
-      position={[-33, -919, -13]}
-    >
+
 
         
         <mesh
