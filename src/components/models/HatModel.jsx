@@ -626,4 +626,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/models6/ok.glb')
+useGLTF.preload('/ok.glb')
