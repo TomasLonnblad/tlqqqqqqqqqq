@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/models6/ok.glb')
+  const { nodes, materials } = useGLTF('/ok.glb')
   return (
   
 
