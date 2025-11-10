@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/ok.glb')
+  const { nodes, materials } = useGLTF('/hat-transformed.glb')
   return (
   
 
@@ -626,4 +626,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/ok.glb')
+useGLTF.preload('/hat-transformed.glb')
