@@ -17,7 +17,7 @@ export function Model(props) {
 
   <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
-         <group position={[-33, -919, -13]}>
+     
 
     
 
