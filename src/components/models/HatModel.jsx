@@ -11,7 +11,7 @@ export function Model(props) {
   
 
   <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 10, 8]}>
+      <group rotation={[-Math.PI / 2, 0, 0]}>
      
         <mesh
           castShadow
